@@ -7,16 +7,22 @@ import heroImage from "@/assets/hero-couple.jpg";
 export const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-6 pt-24 pb-16 overflow-hidden">
-      {/* Background gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-radial opacity-50" />
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img
+          src={heroImage}
+          alt="Christian couple connecting through faith and love"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/60" />
+      </div>
       
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10">
-        {/* Left Content */}
+      <div className="max-w-7xl mx-auto relative z-10">
         <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="space-y-8"
+          className="max-w-3xl space-y-8"
         >
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -72,33 +78,6 @@ export const HeroSection = () => {
                 Watch Latest Episode
               </Button>
             </Link>
-          </motion.div>
-        </motion.div>
-
-        {/* Right Image */}
-        <motion.div
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          className="relative"
-        >
-          <div className="relative rounded-3xl overflow-hidden shadow-glow">
-            <img
-              src={heroImage}
-              alt="Christian couple connecting through faith and love"
-              className="w-full h-auto object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
-          </div>
-          
-          {/* Floating element */}
-          <motion.div
-            animate={{ y: [0, -10, 0] }}
-            transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute -bottom-6 -right-6 bg-card/90 backdrop-blur p-6 rounded-2xl border border-glass-border shadow-glow"
-          >
-            <p className="text-4xl font-bold text-accent">2,500+</p>
-            <p className="text-sm text-muted-foreground">Verified Members</p>
           </motion.div>
         </motion.div>
       </div>
