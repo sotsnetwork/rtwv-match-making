@@ -11,7 +11,7 @@ export const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <Heart className="w-8 h-8 text-accent" fill="currentColor" />
               <span className="text-2xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
-                RTWV Match
+                The RTWV Match
               </span>
             </div>
             <p className="text-muted-foreground">
