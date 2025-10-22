@@ -8,52 +8,58 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* RTWV Match Premium Purple Gradient Theme */
-    --background: 283 65% 14%;
-    --foreground: 283 60% 96%;
+    /* Wine Red + Minimalist White/Grey Theme */
+    /* Base surfaces */
+    --background: 0 0% 98%;           /* near-white */
+    --foreground: 0 0% 10%;           /* almost black text */
 
-    --card: 283 50% 15%;
-    --card-foreground: 283 60% 96%;
+    --card: 0 0% 100%;                /* pure white cards */
+    --card-foreground: 0 0% 12%;
 
-    --popover: 283 55% 16%;
-    --popover-foreground: 283 60% 96%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 12%;
 
-    --primary: 283 47% 47%;
-    --primary-foreground: 283 60% 96%;
+    /* Brand - Wine Red */
+    --primary: 350 65% 35%;           /* deep wine */
+    --primary-foreground: 0 0% 98%;   /* white on wine */
 
-    --secondary: 283 59% 29%;
-    --secondary-foreground: 283 60% 96%;
+    /* Neutral/support */
+    --secondary: 0 0% 30%;            /* charcoal for subtle emphasis */
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 283 35% 25%;
-    --muted-foreground: 283 25% 77%;
+    --muted: 0 0% 94%;                /* light grey backgrounds */
+    --muted-foreground: 0 0% 40%;     /* mid grey text */
 
-    --accent: 343 100% 74%;
-    --accent-foreground: 283 65% 14%;
+    /* Accent - brighter wine for highlights */
+    --accent: 350 75% 50%;            /* vivid wine */
+    --accent-foreground: 0 0% 98%;
 
-    --highlight: 42 67% 69%;
-    --highlight-foreground: 283 65% 14%;
+    /* Supportive tone (blush/rose that complements wine) */
+    --highlight: 10 70% 60%;          /* warm blush */
+    --highlight-foreground: 0 0% 12%;
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 283 60% 96%;
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 283 40% 25%;
-    --input: 283 45% 20%;
-    --ring: 283 47% 57%;
+    /* Strokes/inputs */
+    --border: 0 0% 86%;
+    --input: 0 0% 96%;
+    --ring: 350 70% 50%;
 
     --radius: 1rem;
 
     /* Glass morphism card styles */
-    --glass-bg: 0 0% 100% / 0.05;
-    --glass-border: 283 47% 47% / 0.25;
+    --glass-bg: 0 0% 100% / 0.5;      /* more visible on light UI */
+    --glass-border: 350 65% 35% / 0.18;
 
-    /* Gradient stops */
-    --gradient-from: 283 65% 14%;
-    --gradient-via: 283 67% 28%;
-    --gradient-to: 283 47% 47%;
+    /* Gradient stops (subtle light backdrop with gentle wine tint) */
+    --gradient-from: 0 0% 100%;
+    --gradient-via: 0 0% 98%;
+    --gradient-to: 350 30% 97%;
 
     /* Shadow with glow */
-    --shadow-glow: 0 8px 32px rgb(0 0 0 / 0.4);
-    --shadow-hover: 0 8px 20px hsl(343 100% 74% / 0.25);
+    --shadow-glow: 0 8px 32px rgb(0 0 0 / 0.08);
+    --shadow-hover: 0 8px 20px hsl(350 75% 50% / 0.25);
 
     /* Animation timing */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
