@@ -30,7 +30,7 @@ const Watch = () => {
             className="text-center mb-16"
           >
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Watch RTWV Match Live
+              Watch The RTWV Match Live
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Experience real faith-based connections as they unfold on our live show
