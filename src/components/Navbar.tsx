@@ -27,7 +27,7 @@ export const Navbar = () => {
           <Link to="/" className="flex items-center gap-2 group">
             <Heart className="w-8 h-8 text-accent group-hover:scale-110 transition-transform" fill="currentColor" />
             <span className="text-2xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
-              RTWV Match
+              The RTWV Match
             </span>
           </Link>
 
