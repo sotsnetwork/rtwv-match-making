@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Heart } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Logo } from "@/components/Logo";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +26,9 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 group">
-            <Heart className="w-8 h-8 text-accent group-hover:scale-110 transition-transform" fill="currentColor" />
+            <div className="group-hover:scale-110 transition-transform">
+              <Logo size={32} />
+            </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
               The RTWV Match
             </span>
