@@ -1,5 +1,6 @@
-import { Heart, Instagram, Youtube } from "lucide-react";
+import { Instagram, Youtube } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Logo } from "@/components/Logo";
 
 export const Footer = () => {
   return (
@@ -9,7 +10,7 @@ export const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Heart className="w-8 h-8 text-accent" fill="currentColor" />
+              <Logo size={32} />
               <span className="text-2xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
                 The RTWV Match
               </span>
