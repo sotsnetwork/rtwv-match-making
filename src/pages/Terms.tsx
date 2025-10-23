@@ -102,7 +102,7 @@ const Terms = () => {
                   For questions regarding these terms, please contact us at:
                 </p>
                 <div className="bg-muted/50 p-4 rounded-lg">
-                  <p><strong>Email:</strong> relationshiptalkswithvikkie@gmail.com</p>
+                  <p><strong>Email:</strong> thertwvmatchmakingteam@gmail.com</p>
                   <p><strong>Address:</strong> RTWV Academy LTD</p>
                 </div>
 
