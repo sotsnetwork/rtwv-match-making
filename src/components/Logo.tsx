@@ -23,11 +23,10 @@ export const Logo = ({ className = "", size = 32 }: LogoProps) => {
           height={crossSize}
           viewBox="0 0 24 24"
           fill="none"
-          className="text-background"
         >
           <path
             d="M12 2L12 18M8 8L16 8"
-            stroke="currentColor"
+            stroke="#ffffff"
             strokeWidth="2.5"
             strokeLinecap="round"
             strokeLinejoin="round"
