@@ -10,11 +10,8 @@ export const Navbar = () => {
 
   const links = [
     { label: "Home", href: "/" },
-    { label: "How It Works", href: "#how-it-works" },
-    { label: "Features", href: "#features" },
     { label: "Watch", href: "/watch" },
     { label: "Testimonials", href: "#testimonials" },
-    { label: "FAQ", href: "#faq" },
   ];
 
   return (
