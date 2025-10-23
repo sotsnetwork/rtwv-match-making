@@ -45,11 +45,11 @@ export const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <Link to="/download">
+            <a href="http://realitymatchmakingshow.com/" target="_blank" rel="noopener noreferrer">
               <Button variant="default" className="bg-gradient-to-r from-primary to-accent hover:scale-105 transition-transform shadow-hover-glow">
                 Get Matched Now
               </Button>
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -81,11 +81,11 @@ export const Navbar = () => {
                     {link.label}
                   </a>
                 ))}
-                <Link to="/download" onClick={() => setIsOpen(false)}>
+                <a href="http://realitymatchmakingshow.com/" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
                   <Button className="w-full bg-gradient-to-r from-primary to-accent">
                     Get Matched Now
                   </Button>
-                </Link>
+                </a>
               </div>
             </motion.div>
           )}
