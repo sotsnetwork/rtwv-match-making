@@ -41,7 +41,7 @@ export const Footer = () => {
             <h3 className="font-semibold mb-4 text-lg">Follow Us</h3>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com/rtwvmatch"
+                href="https://www.instagram.com/thertwvmatch?igsh=bWN2bG43MTMyZXAx"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 bg-card/50 border border-glass-border rounded-full flex items-center justify-center hover:bg-accent hover:text-background transition-all"
@@ -49,7 +49,7 @@ export const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a
-                href="https://youtube.com/@rtwvmatch"
+                href="https://youtube.com/@relationshiptalkswithvikkie?si=zzCvysaA-bR8KMHD"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 bg-card/50 border border-glass-border rounded-full flex items-center justify-center hover:bg-accent hover:text-background transition-all"
