@@ -66,11 +66,11 @@ export const HeroSection = () => {
             transition={{ delay: 0.8 }}
             className="flex flex-col sm:flex-row gap-4"
           >
-            <Link to="/download">
+            <a href="http://realitymatchmakingshow.com/" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-gradient-to-r from-primary to-accent hover:scale-105 transition-transform shadow-glow text-lg px-8">
                 Get Matched Now
               </Button>
-            </Link>
+            </a>
             <Link to="/watch">
               <Button size="lg" variant="outline" className="border-accent/50 text-foreground hover:bg-accent/10 text-lg px-8 group">
                 <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
