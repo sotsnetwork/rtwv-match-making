@@ -8,58 +8,58 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Wine Red + Minimalist White/Grey Theme */
-    /* Base surfaces */
-    --background: 0 0% 98%;           /* near-white */
-    --foreground: 0 0% 10%;           /* almost black text */
+    /* Wine Red Primary + Minimalist White/Grey Supporting Theme */
+    /* Base surfaces - Wine red as primary */
+    --background: 350 65% 15%;        /* deep wine background */
+    --foreground: 0 0% 95%;           /* light text on wine */
 
-    --card: 0 0% 100%;                /* pure white cards */
-    --card-foreground: 0 0% 12%;
+    --card: 350 60% 18%;              /* slightly lighter wine cards */
+    --card-foreground: 0 0% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 12%;
+    --popover: 350 60% 18%;
+    --popover-foreground: 0 0% 95%;
 
-    /* Brand - Wine Red */
-    --primary: 350 65% 35%;           /* deep wine */
-    --primary-foreground: 0 0% 98%;   /* white on wine */
+    /* Brand - Wine Red (primary) */
+    --primary: 350 75% 45%;           /* vibrant wine */
+    --primary-foreground: 0 0% 95%;   /* light text on wine */
 
-    /* Neutral/support */
-    --secondary: 0 0% 30%;            /* charcoal for subtle emphasis */
-    --secondary-foreground: 0 0% 98%;
+    /* Neutral/support - white-grey tones */
+    --secondary: 0 0% 85%;            /* light grey for subtle elements */
+    --secondary-foreground: 350 65% 15%;
 
-    --muted: 0 0% 94%;                /* light grey backgrounds */
-    --muted-foreground: 0 0% 40%;     /* mid grey text */
+    --muted: 350 50% 25%;             /* muted wine for backgrounds */
+    --muted-foreground: 0 0% 75%;     /* light grey text */
 
     /* Accent - brighter wine for highlights */
-    --accent: 350 75% 50%;            /* vivid wine */
-    --accent-foreground: 0 0% 98%;
+    --accent: 350 80% 60%;            /* bright wine accent */
+    --accent-foreground: 0 0% 95%;
 
-    /* Supportive tone (blush/rose that complements wine) */
-    --highlight: 10 70% 60%;          /* warm blush */
-    --highlight-foreground: 0 0% 12%;
+    /* Supportive tone (warm white/cream that complements wine) */
+    --highlight: 30 40% 85%;          /* warm cream */
+    --highlight-foreground: 350 65% 15%;
 
     --destructive: 0 72% 50%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 0 0% 95%;
 
-    /* Strokes/inputs */
-    --border: 0 0% 86%;
-    --input: 0 0% 96%;
-    --ring: 350 70% 50%;
+    /* Strokes/inputs - wine tones */
+    --border: 350 50% 30%;
+    --input: 350 50% 20%;
+    --ring: 350 75% 50%;
 
     --radius: 1rem;
 
     /* Glass morphism card styles */
-    --glass-bg: 0 0% 100% / 0.5;      /* more visible on light UI */
-    --glass-border: 350 65% 35% / 0.18;
+    --glass-bg: 0 0% 100% / 0.1;      /* subtle on wine background */
+    --glass-border: 350 75% 50% / 0.3;
 
-    /* Gradient stops (subtle light backdrop with gentle wine tint) */
-    --gradient-from: 0 0% 100%;
-    --gradient-via: 0 0% 98%;
-    --gradient-to: 350 30% 97%;
+    /* Gradient stops (wine to deeper wine) */
+    --gradient-from: 350 65% 15%;
+    --gradient-via: 350 70% 25%;
+    --gradient-to: 350 75% 35%;
 
     /* Shadow with glow */
-    --shadow-glow: 0 8px 32px rgb(0 0 0 / 0.08);
-    --shadow-hover: 0 8px 20px hsl(350 75% 50% / 0.25);
+    --shadow-glow: 0 8px 32px rgb(0 0 0 / 0.3);
+    --shadow-hover: 0 8px 20px hsl(350 80% 60% / 0.4);
 
     /* Animation timing */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
