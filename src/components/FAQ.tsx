@@ -3,20 +3,20 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   {
-    question: "How does verification work?",
-    answer: "Users upload a valid ID and selfie. Our verification partner confirms authenticity before approval to ensure a safe and trusted community.",
+    question: "What's it about?",
+    answer: "A faith-based matchmaking program connecting singles with shared godly values for Christ-centered relationships leading to marriage.",
   },
   {
-    question: "Is RTWV Match free?",
-    answer: "Basic membership is free, while premium experiences like Fast-Track and Coaching require a subscription.",
+    question: "Who can join?",
+    answer: "Christian singles (21+) from any country, not just Nigeria.",
   },
   {
-    question: "Can I appear on the live show?",
-    answer: "Yes! Verified users can apply directly from the app for a chance to appear on the RTWV Match Live Show.",
+    question: "How it works:",
+    answer: "Runs in seasons — 5 episodes per season. First come, first served!",
   },
   {
-    question: "What makes RTWV Match faith-based?",
-    answer: "Our platform operates with biblical values and respect for all participants. Every feature is designed to honor Christian principles of love, respect, and purpose.",
+    question: "Registration closes:",
+    answer: "🗓 November (First Season airs in December) 💌 Don't miss this chance to connect with purpose!",
   },
 ];
 
