@@ -30,9 +30,8 @@ export const HeroSection = () => {
             transition={{ delay: 0.2 }}
             className="text-5xl md:text-6xl font-bold leading-tight"
           >
-            Connecting Christian Singles Through{" "}
             <span className="bg-gradient-to-r from-accent to-highlight bg-clip-text text-transparent">
-              Purpose & Love
+              Where Faith Meets Connection
             </span>
           </motion.h1>
 
