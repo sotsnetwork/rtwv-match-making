@@ -16,7 +16,7 @@ export const Footer = () => {
               </span>
             </div>
             <p className="text-muted-foreground">
-              Connecting Christian Singles Through Purpose & Love
+              Where Faith Meets Connection
             </p>
           </div>
 
